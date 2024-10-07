@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a8a8a8;
+    color: #333;
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.content-themTour {
+    /* max-width: 900px; */
+    background-color: #fff;
+    padding: 30px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+}
+label{
+    font-weight: 700;
+}
+h2 {
+    color: #FF8A31;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #FF8A31;
+    box-shadow: none;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    height: 38px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #333;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.image-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FF8A31;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    background-color: #e67e22;
+}
+
+.btn-primary {
+    background-color: #FF8A31;
+    border-color: #FF8A31;
+}
+
+.btn-primary:hover {
+    background-color: #e67e22;
+    border-color: #e67e22;
+}
+
+.btn-primary:focus {
+    box-shadow: 1 1 1 0.5rem rgba(255, 138, 49, 0.5);
+}
+
+textarea.form-control {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+textarea.form-control:focus {
+    border-color: #FF8A31;
+    box-shadow: none;
+}
