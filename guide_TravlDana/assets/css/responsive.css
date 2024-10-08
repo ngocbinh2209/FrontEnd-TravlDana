@@ -1,0 +1,86 @@
+/* Table */
+@media (min-width: 740) and (max-width: 1023px) {
+  #main {
+    overflow: hidden;
+  }
+
+  
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+  #main {
+    overflow: hidden;
+  }
+
+  #main > #navbar {
+    margin-top: 0px;
+  }
+
+  #navbar {
+  }
+  #clock {
+    color: black;
+    /* font-weight: 1000; */
+    display: none;
+  }
+  .navbar-header {
+    margin: 20px;
+  }
+  .navbar-header .navbar-qtv {
+    margin-left: 15px;
+    display: none;
+  }
+
+  .navbar-menu {
+    display: block;
+    font-size: 25px;
+  }
+  .navbar-menu > a > i {
+    color: #000;
+  }
+
+  #siderBar {
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+    margin: 4px 0px 0px 2px;
+    width: 250px;
+    position: fixed;
+    left: -250px; /* Ban đầu ẩn sidebar */
+    transition: left 0.3s ease; /* Tạo hệu ứng mượt khi chuyển đổi */
+    z-index: 999;
+    border-radius: 5px;
+  }
+
+    #siderBar.active {
+      left: 0; /* Khi active, sidebar sẽ xuất hiện */
+    }
+
+  .dt-buttons.btn-group {
+    display: none;
+  }
+
+  .content-btn-all {
+    display: block;
+  }
+
+  .display-4 {
+    font-size: 38px;
+  }
+
+  .content-btn {
+    margin-bottom: 10px;
+  }
+
+  .sideBarRight{
+    width: 70%;
+    right: 3px;
+    margin-top: 1px;
+    height: 350px;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
